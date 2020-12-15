@@ -8039,6 +8039,7 @@ h1, h2, h3, h4, h5,
   .owl-carousel .owl-item {
     opacity: .4; }
     .owl-carousel .owl-item.active {
+      touch-action: pan-y;
       opacity: 1; }
   .owl-carousel .owl-nav {
     position: absolute;
