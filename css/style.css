@@ -2162,6 +2162,7 @@ textarea.form-control {
         color: #000;
     }
     
+    
     .btn.btn-primary {
         height: 250px;
         width: 300px;
@@ -3568,6 +3569,24 @@ textarea.form-control {
     color: #fff; }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
+
+      .checkout_card {
+        align-content: center;
+        text-align: center;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        min-width: 300px;
+        word-wrap: break-word;
+        background-color: #75c92b;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem; }
 
 .card {
   position: relative;
