@@ -9238,7 +9238,14 @@ textarea.form-control {
     .categories li:hover, .sidelink li:hover {
       border-bottom: 1px dashed black; }
 
-#ftco-loader {
+.sub1, .sub2 { display: none; }
+
+:checked ~ .sub1, :checked ~ .sub2 {
+    display: block;
+    margin-left: 40px;
+}
+
+      #ftco-loader {
   position: fixed;
   width: 96px;
   height: 96px;
