@@ -66,7 +66,28 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     left: calc(50% - 400px);
     display: flex;
   }
+
+.hide {
+  position: relative;
+  display: flex;
+  color: #242424;
+  padding-bottom: 5%;
+ 
+}
   
+.myDIV:hover + .hide {
+  display:block;
+  color: #75c92b;
+  font-family: 'Poppins';
+}
+  
+.move{
+
+  margin: 15px 0 20px;
+  padding: 0px 15px;
+  
+}
+
   .logo-image{
     width: 200px;
     height: 50px;
@@ -3590,8 +3611,7 @@ textarea.form-control {
 
 .card {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
