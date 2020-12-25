@@ -96,6 +96,16 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     margin-top: 5px;
 }
   
+.checkout_card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.checkout_card:hover ~ .checkout_card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
   /*CARD*/
   .card:not(:first-child) {
       margin-left: auto;
@@ -2194,7 +2204,7 @@ textarea.form-control {
 
     .btn.btn-checkout {
       height: 250px;
-      width: 60em;
+      width: auto;
       border-radius: 10px;
       background-color: #75c92b;
       border: 2px solid #75c92b;
@@ -3619,7 +3629,7 @@ width: 60e;
         display: -webkit-box;
         display: -ms-flexbox;
         padding-right: 0%;
-        display: flex;
+        display: grid;
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -3633,7 +3643,7 @@ width: 60e;
 
 .card {
   position: relative;
-  display:grid;
+  display:flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
