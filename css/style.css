@@ -2191,6 +2191,27 @@ textarea.form-control {
         background-color: #75c92b;
         border: 2px solid #75c92b;
     }
+
+    .btn.btn-checkout {
+      height: 250px;
+      width: 60em;
+      border-radius: 10px;
+      background-color: #75c92b;
+      border: 2px solid #75c92b;
+  }
+
+  .btn.btn-checkout.btn-border {
+    border-color: #75c92b;
+    color: #75c92b;
+}
+
+.btn.btn-checkout:hover {
+  height: 250px;
+width: 60e;
+    background-color: #242424;
+    border-color: #111;
+    color: #fff;
+}
     
     .btn.btn-primary.btn-border {
         border-color: #75c92b;
@@ -3597,12 +3618,13 @@ textarea.form-control {
         position: relative;
         display: -webkit-box;
         display: -ms-flexbox;
+        padding-right: 0%;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        min-width: 300px;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+        min-width: auto;
         word-wrap: break-word;
         background-color: #75c92b;
         background-clip: border-box;
@@ -3611,8 +3633,7 @@ textarea.form-control {
 
 .card {
   position: relative;
-
-  display: flex;
+  display:grid;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -8288,6 +8309,21 @@ h1, h2, h3, h4, h5,
         border: 1px solid transparent;
         background: #75c92b;
         color: #fff; }
+        .btn.btn-checkout {
+          background: #75c92b;
+          border: 1px solid #75c92b;
+          color: #111; }
+          .btn.btn-checkout:hover {
+            border: 1px solid #75c92b;
+            color: #75c92b; }
+          .btn.btn-checkout.btn-outline-primary {
+            border: 1px solid #75c92b;
+            background: transparent;
+            color: #75c92b; }
+            .btn.btn-checkout.btn-outline-primary:hover {
+              border: 1px solid transparent;
+              background: #75c92b;
+              color: #fff; }
   .btn.btn-white {
     background: #fff;
     border: 1px solid #fff;
