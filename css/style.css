@@ -2380,6 +2380,8 @@ width: 60e;
 
 .dropdown-menu {
   position: absolute;
+  height: auto;
+  width: 300px;
   top: 100%;
   left: 0;
   z-index: 1000;
@@ -2390,9 +2392,9 @@ width: 60e;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
-  text-align: left;
+  text-align: center;
   list-style: none;
-  background-color: #fff;
+  background-color: #242424;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; }
