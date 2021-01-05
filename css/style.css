@@ -2217,9 +2217,30 @@ textarea.form-control {
 
 .btn.btn-checkout:hover {
   height: 250px;
-width: 60e;
+  width: 60e;
     background-color: #242424;
     border-color: #111;
+    color: #fff;
+}
+
+  .btn.btn-brand {
+    height: 70px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #75c92b;
+    border: 2px solid #75c92b;
+}
+
+.btn.btn-brand.btn-border {
+  border-color: #75c92b;
+  color: #75c92b;
+}
+
+.btn.btn-brand:hover {
+  height: 70px;
+  width: auto;
+    background-color: #242424;
+    border-color: #75c92b;
     color: #fff;
 }
     
