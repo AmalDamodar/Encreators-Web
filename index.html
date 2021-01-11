@@ -35,6 +35,10 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+
+
+  <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+  <link type="text/css" rel="stylesheet" href="../node_modules/video-js/dist/video-js.min.css" />
 </head>
 
 <body>
@@ -136,7 +140,7 @@
       </div>
     </div>
 
-    <div class="slider-item js-fullheight" style="background-image: url(images/web.png);">
+    <div class="slider-item js-fullheight" style="background-image: url(images/6.jpg);">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text js-fullheight justify-content-center align-items-center"
@@ -148,21 +152,23 @@
 
         </div>
       </div>
+    </div>
 
-      <div class="slider-item js-fullheight" style="background-image: url(images/web.png);">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text js-fullheight justify-content-center align-items-center"
-            data-scrollax-parent="true">
+    <div class="slider-item js-fullheight" style="background-image: url(images/1.png);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text js-fullheight justify-content-center align-items-center"
+          data-scrollax-parent="true">
 
-            <div class="col-md-12 col-sm-12 text-center ftco-animate">
-              <h1 class="mb-4 mt-5">Make your Content Creator Dream Come true with us Today!</h1>
-            </div>
-
+          <div class="col-md-12 col-sm-12 text-center ftco-animate">
+            <h1 class="mb-4 mt-5">Make your Content Creator Dream Come true with us Today!</h1>
           </div>
-        </div>
 
+        </div>
       </div>
+    </div>
+
+    
   </section>
 
 
@@ -170,10 +176,36 @@
     <div class="container-fluid p-5">
       <div class="row">
         <div class="col-sm-6">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-              src="https://www.youtube.com/embed/A0FZIwabctw?autoplay=1&mute=1&controls=0" allowfullscreen></iframe>
-          </div>
+          
+
+            <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/A0FZIwabctw?autoplay=1&cc_load_policy=1" frameborder="0"
+            allowfullscreen></iframe> -->
+            <video
+            id="my-video"
+            class="video-js vjs-fluid"
+            controls
+            preload="auto"
+            width="640"
+            height="264"
+            poster="MY_VIDEO_POSTER.jpg"
+            data-setup="{}"
+          >
+            <source src="video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        
+          <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+
+            
+              
+          
           <br><br>
 
         </div>
@@ -221,13 +253,13 @@
 
           <div class="col-md-3 col-sm-6 no-padding">
             <div class="card">
-              <a href="ytauto.html" class="btn btn-primary card ">YouTube Automation</a>
+              <a href="ytauto.html" class="btn btn-primary card">YouTube Automation</a>
             </div>
           </div>
 
           <div class="col-md-3 col-sm-6 no-padding">
             <div class="card">
-              <a href="personalbrand.html" class="btn btn-primary card ">Personal Brand</a>
+              <a href="personalbrand.html" class="btn btn-primary card">Personal Brand</a>
             </div>
           </div>
 
@@ -407,13 +439,18 @@
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2">Newsletter</h2>
             <p>Far far away, behind the word mountains, far from the countries.</p>
-            <form action="#" class="subscribe-form">
+            <form
+              action="https://encreators.us7.list-manage.com/subscribe/post?u=e4e15e8bc538392d88f521b8f&amp;id=a6956d0e17"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+              target="_blank" novalidate>
               <div class="form-group">
-                <input type="text" class="form-control mb-2 text-center" placeholder="Enter Email Address">
-                <input type="submit" value="Subscribe" class="form-control submit px-3">
+                <input type="email" name="EMAIL" class="form-control mb-2 text-center" placeholder="Enter Email Address"
+                  id="mce-EMAIL">
+                <input type="submit" value="Subscribe" class="news-btn" name="subscribe" id="mc-embedded-subscribe">
               </div>
             </form>
           </div>
+
         </div>
 
       </div>

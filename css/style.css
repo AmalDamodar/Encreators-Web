@@ -8815,6 +8815,26 @@ textarea.form-control {
       border-radius: 2px; }
       .ftco-footer .subscribe-form .form-group .submit:hover {
         cursor: pointer; }
+
+.news-btn{
+  color: #fff !important;
+      background: #75c92b !important;
+      border: none !important;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px; 
+      width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.news-btn:hover{
+  cursor: pointer;
+}
+
   .ftco-footer .subscribe-form .icon {
     position: absolute;
     top: 50%;
